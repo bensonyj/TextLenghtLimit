@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UITextField+LimitLength.h
 //  TextLenghtLimit
 //
 //  Created by YJ on 16/7/20.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UITextField (LimitLength)
 
+@property (nonatomic, assign) IBInspectable NSInteger limitLength;
 
 @end
-

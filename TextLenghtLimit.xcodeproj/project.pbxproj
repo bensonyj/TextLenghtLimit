@@ -15,6 +15,8 @@
 		C6F0981A1D3FA889006B1363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6F098181D3FA889006B1363 /* LaunchScreen.storyboard */; };
 		C6F098251D3FA889006B1363 /* TextLenghtLimitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F098241D3FA889006B1363 /* TextLenghtLimitTests.m */; };
 		C6F098301D3FA889006B1363 /* TextLenghtLimitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F0982F1D3FA889006B1363 /* TextLenghtLimitUITests.m */; };
+		C6F098401D3FA8C9006B1363 /* UITextView+LimitLength.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F0983F1D3FA8C9006B1363 /* UITextView+LimitLength.m */; };
+		C6F098431D3FA8E6006B1363 /* UITextField+LimitLength.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F098421D3FA8E6006B1363 /* UITextField+LimitLength.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C6F0982B1D3FA889006B1363 /* TextLenghtLimitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextLenghtLimitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F0982F1D3FA889006B1363 /* TextLenghtLimitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextLenghtLimitUITests.m; sourceTree = "<group>"; };
 		C6F098311D3FA889006B1363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F0983E1D3FA8C9006B1363 /* UITextView+LimitLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LimitLength.h"; sourceTree = "<group>"; };
+		C6F0983F1D3FA8C9006B1363 /* UITextView+LimitLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LimitLength.m"; sourceTree = "<group>"; };
+		C6F098411D3FA8E6006B1363 /* UITextField+LimitLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LimitLength.h"; sourceTree = "<group>"; };
+		C6F098421D3FA8E6006B1363 /* UITextField+LimitLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LimitLength.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		C6F098091D3FA889006B1363 /* TextLenghtLimit */ = {
 			isa = PBXGroup;
 			children = (
+				C6F0983D1D3FA8A5006B1363 /* limit */,
 				C6F0980D1D3FA889006B1363 /* AppDelegate.h */,
 				C6F0980E1D3FA889006B1363 /* AppDelegate.m */,
 				C6F098101D3FA889006B1363 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				C6F098311D3FA889006B1363 /* Info.plist */,
 			);
 			path = TextLenghtLimitUITests;
+			sourceTree = "<group>";
+		};
+		C6F0983D1D3FA8A5006B1363 /* limit */ = {
+			isa = PBXGroup;
+			children = (
+				C6F0983E1D3FA8C9006B1363 /* UITextView+LimitLength.h */,
+				C6F0983F1D3FA8C9006B1363 /* UITextView+LimitLength.m */,
+				C6F098411D3FA8E6006B1363 /* UITextField+LimitLength.h */,
+				C6F098421D3FA8E6006B1363 /* UITextField+LimitLength.m */,
+			);
+			path = limit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F098431D3FA8E6006B1363 /* UITextField+LimitLength.m in Sources */,
 				C6F098121D3FA889006B1363 /* ViewController.m in Sources */,
+				C6F098401D3FA8C9006B1363 /* UITextView+LimitLength.m in Sources */,
 				C6F0980F1D3FA889006B1363 /* AppDelegate.m in Sources */,
 				C6F0980C1D3FA889006B1363 /* main.m in Sources */,
 			);

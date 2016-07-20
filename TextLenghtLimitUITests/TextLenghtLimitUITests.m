@@ -2,7 +2,7 @@
 //  TextLenghtLimitUITests.m
 //  TextLenghtLimitUITests
 //
-//  Created by 应剑 on 16/7/20.
+//  Created by YJ on 16/7/20.
 //  Copyright © 2016年 YJ. All rights reserved.
 //
 
